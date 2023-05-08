@@ -16,7 +16,7 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Rcoder</a>
+        <a class="navbar-brand" href="/Rcoder/">Rcoder</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -28,8 +28,9 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item ">
               <a class="nav-link" aria-current="page" href="/Rcoder/">Home</a>
             </li>
             <li class="nav-item">
@@ -63,13 +64,27 @@
               placeholder="Rupesh Coder"
               aria-label="Search"
             />
-            <button class="btn btn-outline-success" type="submit">
-              Search
-            </button>
+            <button class="btn btn-outline-success" type="submit">Search</button>
           </form>
         </div>
       </div>
     </nav>
+    <div>
+      <button type="button" class="btn btn-Success" id="liveToastBtn">Message</button>
+<div class="toast-container position-fixed bottom-0 end-0 p-3">
+  <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="toast-header">
+      <img src="..." class="rounded me-2" alt="...">
+      <strong class="me-auto">Message From Developer-Rupesh</strong>
+      <small>2 minutes ago</small>
+      <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+    </div>
+    <div class="toast-body">
+      Hello, Guys! A lot of quality content & useful blogs are coming soon. Stay Tuned
+    </div>
+  </div>
+</div>
+    </div>
     <div class="container my-4">
       <div
         class="row featurette d-flex justify-content-center align-items-center"
@@ -81,7 +96,7 @@
           </h2>
           <p class="lead">
             This blog is authored by Rupesh Kumar Mund where he has mentioned
-            about how he made this website.
+            about how he made this website.He also has knowledge about what is Git & Github & how to deploy websites through the Github Pages.
           </p>
         </div>
         <div class="col-md-5">
@@ -135,6 +150,8 @@
         </div>
       </div>
     </div>
+    <div><label for="customRange1" class="form-label">Liked the content of this website build by Rupesh Kumar Mund.</label>
+<input type="range" class="form-range" id="customRange1"></div>
     <div class="container">
       <footer class="container">
         <p class="float-end">
